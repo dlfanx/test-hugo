@@ -1,0 +1,4 @@
+[submodule "mysimplehugosite/public"]
+	path = mysimplehugosite/public
+	url = https://github.com/dlfanx/dlfanx.github.io.git
+	branch = main

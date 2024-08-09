@@ -1,0 +1,52 @@
+baseURL = 'https://dlfanx.github.io/'
+languageCode = 'en-us'
+title = "Dlfanx's Simple Website"
+theme = 'nightfall'
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "blog"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+user = ""
+hostname = "dlfanx.github.io"
+  [params.author]
+    name = "dlfanx"  # Website and RSS feed author
+    email = "delfanasa@gmail.com"  # RSS feed email address
+
+
+readingTime = false  # Show reading time on post page
+published = false  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/dlfanx"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://twitter.com/dlfanx"
+target = "_blank"
+aria = "Twitter Profile"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/indra-delfanasa-231535247/"
+target = "_blank"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 3
+name = "email"
+url = "mailto:delfanasa@gmail.com"
+aria = "My e-Mail Address"
